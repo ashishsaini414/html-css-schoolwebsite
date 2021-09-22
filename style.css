@@ -1,0 +1,268 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    max-width: 80%;
+    margin:auto;
+}
+.box-1{
+    background-color: rgb(250, 248, 248);
+    
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 4px;
+}
+.top-links > a{
+    text-decoration: none;
+    font-size: 13px;
+    color: rgb(163, 165, 159);
+}
+.social-links{
+    float: right;
+}
+.social-links > i{
+    margin-right: 10px;
+    color: yellowgreen;
+}
+.box-2{
+    display: flex;
+    padding: 12px 0;
+    position: relative;;
+}
+.web-logo{
+    display: flex;
+    width: 30%;
+}
+.web-logo > i{
+    font-size: 30px;
+    padding: 10px;
+    color: rgb(62, 185, 45);
+}
+#name{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(62, 185, 45);
+}
+#caption{
+    font-size: 12px;
+    color: rgb(99, 94, 94);
+}
+.logo-content{
+    padding: 8px;
+    padding-top: 10px;
+    font-size: 14px;
+}
+.contact{
+    display: flex;
+    margin-left: 10%;
+}
+.link-1{
+    display: flex;
+    margin: 8px;
+    margin-right: 50px;
+}
+.link-1 > i{
+    font-size: 25px;
+    padding: 7px;
+    color: rgb(62, 185, 45);
+}
+.link-1-details > .email{
+    color: rgb(99, 94, 94);
+}
+.link-1-details > #phone-number{
+    color: rgb(99, 94, 94);
+}
+.link-2{
+    display: flex;
+    margin: 8px;
+    margin-right: 50px;
+}
+.link-2 > span{
+    margin-top: 10px;
+    color: rgb(99, 94, 94);
+}
+.link-2 > i{
+    font-size: 25px;
+    padding: 7px;
+    color: rgb(62, 185, 45);
+}
+.apply-button{
+    font-size: 10px;
+    height: 70%;
+    margin: 10px;
+    border: 0px;
+    padding: 10px;
+    width: 135px;
+    background-color: transparent;
+    border: 1px solid green;
+    color: green;
+}
+.website-links{
+    background-color: green;
+    padding: 10px 0;
+    position: relative;
+    padding-bottom: 30px;
+}
+.nav-links{
+    width: 100%;
+    position: absolute;
+    padding-left: 10%;
+}
+.nav-links > a{
+    color: white;
+    text-decoration: none;
+    padding-right: 25px;
+    font-size: 14px;
+}
+.nav-links > i{
+    color: white;
+}
+.center-content{
+    position: relative;
+    text-align: center;
+}
+.center-content > img{
+    height: 700px;
+    filter: brightness(50%);
+}
+#image-content{
+    position: absolute;
+    top: 37%;
+    left: 25%;
+    width: 50%;
+}
+#text-1{
+    color: white;
+    font-size: 60px;
+    font-weight: 600;
+}
+#text-2{
+    color: white;
+    padding:20px 0;
+}
+.button-1{
+    border: 0;
+    background-color: yellowgreen;
+    padding:10px;
+    color: white;
+}
+.button-2{
+    color: white;
+    border: 2px solid white;
+    background-color: transparent;
+    padding: 8px;
+    margin-left: 8px;
+}
+
+footer{
+    margin:auto;
+    width: 80%;
+    margin-top: -100px;
+    position: relative;
+}
+.block{
+    display: inline-block;
+    position: relative;
+    height: 250px;
+    width: 250px;
+}
+
+#block-1{
+    background-color: rgb(129, 129, 221);
+    margin-right: -4px;
+}
+#graduation-cap{
+    font-size: 60px;
+    margin: 5px 85px;
+    padding-top: 30px;
+    color: white;
+}
+#footer-block-1-text-1{
+    color: white;
+    padding: 10px 0px;
+    margin-left: 40px;
+    font-weight: bold;
+    font-size: 25px;
+}
+#footer-block-1-text-2{
+    padding: 5px 20px;
+    text-align: center;
+    font-size: 16px;
+    color: white;
+}
+
+#block-2{
+    background-color: rgb(226, 116, 116);
+    margin-right: -4px;
+}
+#peoples-icon{
+    font-size: 60px;
+    margin: 5px 85px;
+    padding-top: 30px;
+    color: white;
+}
+#footer-block-2-text-1{
+    color: white;
+    padding: 10px 0px;
+    margin-left: 40px;
+    font-weight: bold;
+    font-size: 25px;
+}
+#footer-block-2-text-2{
+    padding: 5px 20px;
+    text-align: center;
+    font-size: 16px;
+    color: white;
+}
+
+#block-3{
+    background-color: rgb(155, 233, 155);
+    margin-right: -4px;
+}
+#check-list{
+    font-size: 60px;
+    margin: 5px 103px;
+    padding-top: 30px;
+    color: white;
+}
+#footer-block-3-text-1{
+    color: white;
+    padding: 10px 0px;
+    margin-left: 80px;
+    font-weight: bold;
+    font-size: 25px;
+}
+#footer-block-3-text-2{
+    padding: 5px 20px;
+    text-align: center;
+    font-size: 16px;
+    color: white;
+}
+
+#block-4{
+    background-color: rgb(180, 153, 61);
+    
+}
+#events{
+    font-size: 60px;
+    margin: 5px 100px;
+    padding-top: 30px;
+    color: white;
+}
+#footer-block-4-text-1{
+    color: white;
+    padding: 10px 0px;
+    margin-left: 91px;
+    font-weight: bold;
+    font-size: 25px;
+}
+#footer-block-4-text-2{
+    padding: 5px 20px;
+    text-align: center;
+    font-size: 16px;
+    color: white;
+}
+
+
