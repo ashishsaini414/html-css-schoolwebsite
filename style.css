@@ -30,6 +30,7 @@
     display: flex;
     padding: 12px 0;
     position: relative;;
+    justify-content: space-between;
 }
 .web-logo{
     display: flex;
@@ -103,12 +104,8 @@
     background-color: green;
     padding: 10px 0;
     position: relative;
-    padding-bottom: 30px;
-}
-.nav-links{
-    width: 100%;
-    position: absolute;
-    padding-left: 10%;
+    display: flex;
+    justify-content: center;
 }
 .nav-links > a{
     color: white;
@@ -161,6 +158,10 @@ footer{
     width: 80%;
     margin-top: -100px;
     position: relative;
+}
+.footer-blocks{
+    display: flex;
+    justify-content: center;
 }
 .block{
     display: inline-block;
